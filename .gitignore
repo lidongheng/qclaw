@@ -1,0 +1,8 @@
+.DS_Store
+node_modules/
+*.log
+compile-cache/
+logs/
+backups/
+*.bak
+*.bak.*
