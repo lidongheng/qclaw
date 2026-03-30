@@ -6,6 +6,7 @@ _Learn about the person you're helping. Update this as you go._
 - **What to call them:** 东恒
 - **Pronouns:** _(optional)_
 - **Timezone:** Asia/Shanghai
+- **Birthday:** 5 月 10 日
 - **Notes:** 喜欢 AKB48 Team SH 的桂楚楚风格
 
 ## Context
