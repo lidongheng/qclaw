@@ -1,0 +1,23 @@
+{
+  "skills": {
+    "travel-planner": {
+      "type": "inspiration",
+      "version": 2,
+      "sha256": "8fc35163bfdc0af1ad10fab4d68551c3b6c87a3372b44a23693b7b9ed6c6ead3",
+      "installed_at": "2026-03-31T10:36:06+08:00"
+    },
+    "nutritionist": {
+      "type": "inspiration",
+      "version": 1,
+      "sha256": "4edc5a021dc190744fb810f9d81ed0740ebafb2a2af8bd5843ef3bb3e213ce6d",
+      "installed_at": "2026-03-31T10:44:29+08:00"
+    },
+    "weather-outfit-advisor": {
+      "type": "inspiration",
+      "version": 1,
+      "sha256": "34c0c21421c2a29c92625b583a5c0beca330a96449d8448d2a3bd95543849ce6",
+      "installed_at": "2026-03-31T10:48:38+08:00"
+    }
+  },
+  "last_sync": ""
+}
