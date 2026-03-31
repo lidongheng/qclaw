@@ -6,3 +6,31 @@ logs/
 backups/
 *.bak
 *.bak.*
+
+# OpenClaw sensitive config files
+openclaw.json
+qclaw.json
+.openclaw/
+
+# Session and agent data
+agents/
+devices/
+feishu/
+weixin/
+qmemory/
+skills/
+
+# Log files
+*.jsonl
+
+# Environment files
+.env
+.env.local
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
