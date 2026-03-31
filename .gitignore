@@ -18,7 +18,6 @@ devices/
 feishu/
 weixin/
 qmemory/
-skills/
 
 # Log files
 *.jsonl

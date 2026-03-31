@@ -1,2 +1,6 @@
-2026/03/30-23:41:25.970 6a00 Creating DB C:\Users\Administrator\.qclaw\browser\openclaw\user-data\Default\Local Storage\leveldb since it was missing.
-2026/03/30-23:41:25.975 6a00 Reusing MANIFEST C:\Users\Administrator\.qclaw\browser\openclaw\user-data\Default\Local Storage\leveldb/MANIFEST-000001
+2026/03/30-23:47:38.428 8244 Reusing MANIFEST C:\Users\Administrator\.qclaw\browser\openclaw\user-data\Default\Local Storage\leveldb/MANIFEST-000001
+2026/03/30-23:47:38.431 8244 Recovering log #3
+2026/03/30-23:47:38.431 8244 Reusing old log C:\Users\Administrator\.qclaw\browser\openclaw\user-data\Default\Local Storage\leveldb/000003.log 
+2026/03/30-23:48:30.789 65d0 Level-0 table #5: started
+2026/03/30-23:48:30.790 65d0 Level-0 table #5: 36790 bytes OK
+2026/03/30-23:48:30.791 65d0 Delete type=0 #3
