@@ -1,0 +1,25 @@
+{
+  "id": "o9cq806aswwadsjnfra3v8s-hsyc@im.wechat",
+  "name": "OCR工具与英语",
+  "status": "active",
+  "createdAt": "2026-05-29T04:23:27.526Z",
+  "updatedAt": "2026-07-30T12:48:00.485Z",
+  "agents": [
+    {
+      "id": "agent_u8vf9w56",
+      "name": "Main Agent",
+      "role": "assistant",
+      "status": "idle",
+      "createdAt": "2026-05-29T04:23:27.526Z",
+      "model": "unknown",
+      "systemPrompt": ""
+    }
+  ],
+  "summary": {
+    "id": "summary_h1q6yane",
+    "title": "OCR工具与英语",
+    "createdAt": "2026-05-29T04:23:27.526Z",
+    "file": "summary_h1q6yane.md"
+  },
+  "lastMessageCount": 60
+}

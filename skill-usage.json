@@ -1,0 +1,28 @@
+{
+  "records": [
+    {
+      "skillName": "online-search",
+      "usedAt": 1780811277309
+    },
+    {
+      "skillName": "flyai",
+      "usedAt": 1780716752759
+    },
+    {
+      "skillName": "qclaw-rules",
+      "usedAt": 1781315861380
+    },
+    {
+      "skillName": "tencent-docs",
+      "usedAt": 1781315861380
+    },
+    {
+      "skillName": "https",
+      "usedAt": 1781318767585
+    },
+    {
+      "skillName": "football-match-analysis",
+      "usedAt": 1783056702693
+    }
+  ]
+}

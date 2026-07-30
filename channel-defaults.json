@@ -1,0 +1,13 @@
+{
+  "main": {
+    "openclaw-weixin": {
+      "to": "o9cq806ASWwAdsJNFra3v8S-hsYc@im.wechat"
+    },
+    "feishu": {
+      "to": "user:ou_fd45feae163295a208d74aa0ff8302b2"
+    },
+    "qqbot": {
+      "to": "c2c:71360A50F04ACB1094E9A801E2A2EE55"
+    }
+  }
+}

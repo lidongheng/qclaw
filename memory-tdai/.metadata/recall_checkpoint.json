@@ -1,0 +1,72 @@
+{
+  "last_captured_timestamp": 1775667548029,
+  "total_processed": 30,
+  "last_persona_at": 12,
+  "last_persona_time": "2026-04-08T12:08:50.423Z",
+  "request_persona_update": false,
+  "persona_update_reason": "",
+  "memories_since_last_persona": 23,
+  "scenes_processed": 4,
+  "runner_states": {
+    "agent:main:cron:66de51f3-94a8-439a-a978-f0aacd1f7ca3": {
+      "last_captured_timestamp": 1775658797412,
+      "last_l1_cursor": 1775658797412,
+      "last_scene_name": "AI在和东恒进行整理房间定时提醒任务的第二次提醒互动"
+    },
+    "agent:main:cron:b4a0b1e4-3186-497d-a3d1-35a63378a66d": {
+      "last_captured_timestamp": 1775662209085,
+      "last_l1_cursor": 1775662209085,
+      "last_scene_name": "未知情境"
+    },
+    "agent:main:openclaw-weixin:direct:o9cq806aswwadsjnfra3v8s-hsyc@im.wechat": {
+      "last_captured_timestamp": 1775667548029,
+      "last_l1_cursor": 1775667548029,
+      "last_scene_name": "我（AI楚楚）在和用户东恒庆祝其完成每日整理房间打卡任务并给予鼓励"
+    },
+    "agent:main:cron:75045eb8-a4dc-486a-baea-eaecdab78624": {
+      "last_captured_timestamp": 1775656646710,
+      "last_l1_cursor": 1775656646710,
+      "last_scene_name": "AI在提醒用户完成整理房间任务"
+    }
+  },
+  "pipeline_states": {
+    "agent:main:cron:66de51f3-94a8-439a-a978-f0aacd1f7ca3": {
+      "conversation_count": 0,
+      "last_extraction_time": "2026-04-09T10:36:17.646Z",
+      "last_extraction_updated_time": "",
+      "last_active_time": 1775658806994,
+      "l2_pending_l1_count": 0,
+      "warmup_threshold": 4,
+      "l2_last_extraction_time": "2026-04-09T10:36:17.646Z"
+    },
+    "agent:main:cron:b4a0b1e4-3186-497d-a3d1-35a63378a66d": {
+      "conversation_count": 0,
+      "last_extraction_time": "2026-04-09T10:34:49.965Z",
+      "last_extraction_updated_time": "",
+      "last_active_time": 1775662215702,
+      "l2_pending_l1_count": 0,
+      "warmup_threshold": 0,
+      "l2_last_extraction_time": "2026-04-09T10:34:49.965Z"
+    },
+    "agent:main:openclaw-weixin:direct:o9cq806aswwadsjnfra3v8s-hsyc@im.wechat": {
+      "conversation_count": 0,
+      "last_extraction_time": "2026-04-09T11:03:17.267Z",
+      "last_extraction_updated_time": "2026-04-08T17:01:08.859Z",
+      "last_active_time": 1775667590722,
+      "l2_pending_l1_count": 0,
+      "warmup_threshold": 0,
+      "l2_last_extraction_time": "2026-04-09T11:03:17.267Z"
+    },
+    "agent:main:cron:75045eb8-a4dc-486a-baea-eaecdab78624": {
+      "conversation_count": 0,
+      "last_extraction_time": "2026-04-09T11:00:18.793Z",
+      "last_extraction_updated_time": "",
+      "last_active_time": 1775656654447,
+      "l2_pending_l1_count": 0,
+      "warmup_threshold": 4,
+      "l2_last_extraction_time": "2026-04-09T11:00:18.793Z"
+    }
+  },
+  "l0_conversations_count": 15,
+  "total_memories_extracted": 6
+}

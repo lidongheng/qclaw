@@ -1,0 +1,16 @@
+{
+  "id": "592f029e-bc84-4f39-8110-3358374680f3",
+  "enqueuedAt": 1777381247980,
+  "channel": "feishu",
+  "to": "o9cq806ASWwAdsJNFra3v8S-hsYc@im.wechat",
+  "accountId": "cli_a9401a307b38dcb5",
+  "payloads": [
+    {
+      "text": "⚠️ Cron job \"整理房间提醒 -21 点\" failed: ⚠️ ✉️ Message failed"
+    }
+  ],
+  "bestEffort": false,
+  "retryCount": 5,
+  "lastAttemptAt": 1778548290885,
+  "lastError": "Request failed with status code 400"
+}

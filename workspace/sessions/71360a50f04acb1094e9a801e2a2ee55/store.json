@@ -1,0 +1,25 @@
+{
+  "id": "71360a50f04acb1094e9a801e2a2ee55",
+  "name": "会话摘要",
+  "status": "active",
+  "createdAt": "2026-04-16T01:12:43.577Z",
+  "updatedAt": "2026-04-20T14:55:26.229Z",
+  "agents": [
+    {
+      "id": "agent_6mwign5v",
+      "name": "Main Agent",
+      "role": "assistant",
+      "status": "idle",
+      "createdAt": "2026-04-16T01:12:43.577Z",
+      "model": "unknown",
+      "systemPrompt": ""
+    }
+  ],
+  "summary": {
+    "id": "summary_ho5exhxq",
+    "title": "会话摘要",
+    "createdAt": "2026-04-16T01:12:43.577Z",
+    "file": "summary_ho5exhxq.md"
+  },
+  "lastMessageCount": 52
+}

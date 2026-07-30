@@ -1,0 +1,624 @@
+{
+  "meta": {
+    "lastTouchedVersion": "2026.6.5",
+    "lastTouchedAt": "2026-07-02T15:07:29.741Z"
+  },
+  "browser": {
+    "enabled": true,
+    "defaultProfile": "openclaw",
+    "ssrfPolicy": {
+      "dangerouslyAllowPrivateNetwork": false
+    }
+  },
+  "models": {
+    "mode": "merge",
+    "providers": {
+      "bailian-plan": {
+        "baseUrl": "https://coding.dashscope.aliyuncs.com/v1",
+        "apiKey": "",
+        "api": "openai-completions",
+        "models": [],
+        "timeoutSeconds": 72000
+      }
+    },
+    "pricing": {
+      "enabled": false
+    }
+  },
+  "agents": {
+    "defaults": {
+      "model": {
+        "primary": "qclaw/pool-glm-5.1"
+      },
+      "workspace": "C:\\Users\\Administrator\\.qclaw\\workspace",
+      "compaction": {
+        "mode": "safeguard"
+      },
+      "timeoutSeconds": 72000,
+      "maxConcurrent": 6,
+      "heartbeat": {
+        "isolatedSession": true,
+        "lightContext": true,
+        "model": "qclaw/modelroute",
+        "every": "2h"
+      },
+      "memorySearch": {
+        "provider": "auto"
+      }
+    },
+    "list": [
+      {
+        "id": "main",
+        "reasoningDefault": "stream",
+        "skills": [
+          "find-skills",
+          "qclaw-rules",
+          "qclaw-env",
+          "qclaw-cron-skill",
+          "qclaw-text-file",
+          "skillhub-preference",
+          "qclaw-skill-creator",
+          "online-search",
+          "dh-post-match-analysis",
+          "travel-planner",
+          "qclaw-openclaw",
+          "weather-advisor",
+          "pdf",
+          "flyai",
+          "wendao-partner-qclaw-skill",
+          "another_them",
+          "cloud-upload-backup",
+          "docx",
+          "email-skill",
+          "mcporter",
+          "multi-search-engine",
+          "xlsx",
+          "xbrowser",
+          "qclaw-migration",
+          "figma",
+          "mtunion-product-ai-guide",
+          "qclaw-order",
+          "agent-email",
+          "imap-smtp-email",
+          "personal-mail-skill",
+          "persona-switch",
+          "tencent-docs",
+          "qclaw-generate-image",
+          "tencentmap-jsapi-gl-skill"
+        ]
+      },
+      {
+        "id": "agent-45e824d3",
+        "name": "智能Agent",
+        "workspace": "C:\\Users\\Administrator\\.qclaw\\workspace-agent-45e824d3",
+        "agentDir": "C:\\Users\\Administrator\\.qclaw\\agents\\agent-45e824d3\\agent",
+        "reasoningDefault": "stream",
+        "skills": [
+          "another_them",
+          "canvas-design",
+          "cloud-upload-backup",
+          "content-factory",
+          "docx",
+          "email-skill",
+          "file-skill",
+          "find-skills",
+          "flyai",
+          "frontend-design",
+          "github-skill",
+          "ima",
+          "imap-smtp-email",
+          "kc-gui",
+          "kdocs",
+          "mcporter",
+          "multi-search-engine",
+          "neodata-financial-search",
+          "news-summary",
+          "notion",
+          "online-search",
+          "pdf",
+          "pptx",
+          "public-skill",
+          "qclaw-cron-skill",
+          "qclaw-env",
+          "qclaw-rules",
+          "qclaw-skill-creator",
+          "qclaw-text-file",
+          "self-improving",
+          "session-logs",
+          "skill-vetter",
+          "tech-news-digest",
+          "tencent-docs",
+          "tencent-meeting-mcp",
+          "tencent-survey",
+          "weather-advisor",
+          "wecomcli-setup",
+          "weiyun",
+          "wendao-partner-qclaw-skill",
+          "xbrowser",
+          "xlsx",
+          "youdaonote",
+          "skillhub-preference",
+          "agent-browser",
+          "fbs_bookwriter",
+          "frontend-agent",
+          "huashu-nuwa",
+          "nutritionist",
+          "persona-switch",
+          "travel-planner",
+          "weather-outfit-advisor",
+          "wecom-weisheng-scrm",
+          "figma",
+          "mtunion-product-ai-guide",
+          "qclaw-migration",
+          "qclaw-order",
+          "agent-email",
+          "personal-mail-skill",
+          "qclaw-generate-image",
+          "tencentmap-jsapi-gl-skill"
+        ]
+      },
+      {
+        "id": "p6inpqdjz9bef54k",
+        "name": "女娲",
+        "workspace": "C:\\Users\\Administrator\\.qclaw\\workspace-p6inpqdjz9bef54k",
+        "agentDir": "C:\\Users\\Administrator\\.qclaw\\agents\\p6inpqdjz9bef54k\\agent",
+        "reasoningDefault": "stream",
+        "skills": [
+          "huashu-nuwa",
+          "online-search",
+          "find-skills",
+          "qclaw-rules",
+          "qclaw-env",
+          "qclaw-cron-skill",
+          "qclaw-text-file",
+          "skillhub-preference",
+          "qclaw-skill-creator",
+          "another_them",
+          "cloud-upload-backup",
+          "docx",
+          "email-skill",
+          "mcporter",
+          "multi-search-engine",
+          "pdf",
+          "xlsx",
+          "flyai",
+          "wendao-partner-qclaw-skill",
+          "figma",
+          "mtunion-product-ai-guide",
+          "agent-email",
+          "imap-smtp-email",
+          "personal-mail-skill",
+          "tencent-docs"
+        ],
+        "identity": {
+          "name": "女娲",
+          "emoji": "https://webcdn.m.qq.com/webcdn/qclaw/expert/icons/1778316995070_.png",
+          "avatar": "https://webcdn.m.qq.com/webcdn/qclaw/expert/icons/1778316995070_.png"
+        },
+        "heartbeat": {
+          "every": "0m"
+        }
+      },
+      {
+        "id": "r7918qzcf8hvqefs",
+        "name": "懒人出游规划师",
+        "workspace": "C:\\Users\\Administrator\\.qclaw\\workspace-r7918qzcf8hvqefs",
+        "agentDir": "C:\\Users\\Administrator\\.qclaw\\agents\\r7918qzcf8hvqefs\\agent",
+        "reasoningDefault": "stream",
+        "skills": [
+          "travel-planner",
+          "online-search",
+          "find-skills",
+          "qclaw-rules",
+          "qclaw-env",
+          "qclaw-cron-skill",
+          "qclaw-text-file",
+          "skillhub-preference",
+          "qclaw-skill-creator",
+          "another_them",
+          "cloud-upload-backup",
+          "docx",
+          "email-skill",
+          "mcporter",
+          "multi-search-engine",
+          "pdf",
+          "xlsx",
+          "flyai",
+          "wendao-partner-qclaw-skill",
+          "figma",
+          "mtunion-product-ai-guide",
+          "agent-email",
+          "imap-smtp-email",
+          "personal-mail-skill",
+          "tencent-docs"
+        ],
+        "identity": {
+          "name": "懒人出游规划师",
+          "emoji": "https://webcdn.m.qq.com/qclaw/avatar/Property%201%3D%E6%87%92%E4%BA%BA%E5%87%BA%E6%B8%B8%E8%AE%A1%E5%88%92.svg",
+          "avatar": "https://webcdn.m.qq.com/qclaw/avatar/Property%201%3D%E6%87%92%E4%BA%BA%E5%87%BA%E6%B8%B8%E8%AE%A1%E5%88%92.svg"
+        },
+        "heartbeat": {
+          "every": "0m"
+        }
+      },
+      {
+        "id": "2va2qlrzktl30psi",
+        "name": "腾讯文档专家",
+        "workspace": "C:\\Users\\Administrator\\.qclaw\\workspace-2va2qlrzktl30psi",
+        "identity": {
+          "name": "腾讯文档专家",
+          "emoji": "https://cdn.qclaw.qq.com/qclaw_miniapp/public/expert_avatar/expert_avatar_tencent_docs_expert.png",
+          "avatar": "https://cdn.qclaw.qq.com/qclaw_miniapp/public/expert_avatar/expert_avatar_tencent_docs_expert.png"
+        },
+        "agentDir": "C:\\Users\\Administrator\\.qclaw\\agents\\2va2qlrzktl30psi\\agent",
+        "skills": [
+          "cloud-upload-backup",
+          "docx",
+          "email-skill",
+          "find-skills",
+          "mcporter",
+          "pdf",
+          "qclaw-cron-skill",
+          "qclaw-env",
+          "qclaw-rules",
+          "qclaw-skill-creator",
+          "xbrowser",
+          "xlsx",
+          "another_them",
+          "persona-switch",
+          "tencent-docs",
+          "online-search"
+        ],
+        "reasoningDefault": "stream",
+        "heartbeat": {
+          "every": "0m"
+        }
+      },
+      {
+        "id": "4hrk450kuzewc1be",
+        "name": "世界杯看球搭子",
+        "workspace": "C:\\Users\\Administrator\\.qclaw\\workspace-4hrk450kuzewc1be",
+        "agentDir": "C:\\Users\\Administrator\\.qclaw\\agents\\4hrk450kuzewc1be\\agent",
+        "identity": {
+          "name": "世界杯看球搭子",
+          "emoji": "https://webcdn.m.qq.com/webcdn/qclaw/expert/icons/1782375243114_.png",
+          "avatar": "https://webcdn.m.qq.com/webcdn/qclaw/expert/icons/1782375243114_.png"
+        },
+        "skills": [
+          "cloud-upload-backup",
+          "docx",
+          "email-skill",
+          "find-skills",
+          "mcporter",
+          "pdf",
+          "qclaw-cron-skill",
+          "qclaw-env",
+          "qclaw-rules",
+          "qclaw-skill-creator",
+          "xbrowser",
+          "xlsx",
+          "another_them",
+          "persona-switch",
+          "qclaw-generate-image",
+          "tencent-docs",
+          "football-match-analysis",
+          "worldcup-api",
+          "tencentmap-jsapi-gl-skill"
+        ],
+        "reasoningDefault": "stream",
+        "heartbeat": {
+          "every": "0m"
+        }
+      }
+    ]
+  },
+  "tools": {
+    "web": {
+      "search": {
+        "enabled": true,
+        "provider": "yuanbao"
+      }
+    },
+    "alsoAllow": [
+      "sessions_spawn",
+      "skillhub_install"
+    ],
+    "exec": {
+      "pathPrepend": [
+        "${QCLAW_BUNDLED_CONFIG_DIR}/bin",
+        "${QCLAW_BUNDLED_CONFIG_DIR}/bin/node",
+        "${QCLAW_BUNDLED_CONFIG_DIR}/bin/python",
+        "${QCLAW_USER_DATA_DIR}/runtime-data/python/user-base/cpython-311-win32-x64/Python311/Scripts",
+        "${QCLAW_BUNDLED_CONFIG_DIR}/bin/git"
+      ]
+    }
+  },
+  "messages": {
+    "queue": {
+      "mode": "followup"
+    }
+  },
+  "commands": {
+    "native": "auto",
+    "nativeSkills": "auto",
+    "restart": true,
+    "ownerDisplay": "raw"
+  },
+  "session": {
+    "dmScope": "per-channel-peer",
+    "reset": {
+      "mode": "idle",
+      "idleMinutes": 525600
+    },
+    "maintenance": {
+      "pruneAfter": "365d",
+      "maxEntries": 1000000,
+      "rotateBytes": "1gb",
+      "resetArchiveRetention": false
+    }
+  },
+  "channels": {
+    "wechat-access": {
+      "enabled": true,
+      "token": "6f1652376eb18568944738e8783afe5c",
+      "wsUrl": "${QCLAW_WECHAT_WS_URL}",
+      "guid": "a6cff8c25f6682bbe2f9d5852e57b33a8886b232a946f7a484a3c3df7af6d205",
+      "userId": "1139983032"
+    },
+    "feishu": {
+      "enabled": true,
+      "appId": "${QCLAW_FEISHU_APP_ID}",
+      "appSecret": "${QCLAW_FEISHU_APP_SECRET}",
+      "accounts": {
+        "cli_a9401a307b38dcb5": {
+          "appId": "${QCLAW_FEISHU_ACCOUNT_CLI_A9401A307B38DCB5_APPID}",
+          "appSecret": "${QCLAW_FEISHU_ACCOUNT_CLI_A9401A307B38DCB5_APPSECRET}",
+          "dmPolicy": "open",
+          "allowFrom": [
+            "*"
+          ],
+          "groupPolicy": "open"
+        }
+      }
+    },
+    "openclaw-weixin": {
+      "enabled": true,
+      "allowFrom": [
+        "*"
+      ]
+    },
+    "qqbot": {
+      "enabled": true,
+      "appId": "${QCLAW_QQBOT_APP_ID}",
+      "clientSecret": "${QCLAW_QQBOT_CLIENT_SECRET}",
+      "accounts": {
+        "1903822166": {
+          "appId": "${QCLAW_QQBOT_ACCOUNT_1903822166_APPID}",
+          "clientSecret": "${QCLAW_QQBOT_ACCOUNT_1903822166_CLIENTSECRET}",
+          "allowFrom": [
+            "*"
+          ],
+          "defaultRequireMention": false,
+          "streaming": true
+        }
+      },
+      "streaming": true
+    }
+  },
+  "gateway": {
+    "port": 60631,
+    "mode": "local",
+    "bind": "loopback",
+    "controlUi": {
+      "allowedOrigins": [
+        "null",
+        "file://"
+      ]
+    },
+    "auth": {
+      "mode": "token",
+      "token": "3f0fcf2dee1706501b4bdc5b26fb03116efdc0d2d48db84d"
+    },
+    "tailscale": {
+      "mode": "off",
+      "resetOnExit": false
+    },
+    "http": {
+      "endpoints": {
+        "chatCompletions": {
+          "enabled": true
+        }
+      }
+    }
+  },
+  "skills": {
+    "load": {
+      "extraDirs": [
+        "C:\\Program Files\\QClaw\\v0.2.35.624\\resources\\openclaw\\config\\skills",
+        "~/.openclaw/workspace/skills",
+        "~/.agents/skills",
+        "C:\\Users\\Administrator\\.qclaw\\skills",
+        "C:\\Users\\Administrator\\.qclaw\\skillhub-skills"
+      ]
+    },
+    "entries": {
+      "skill-creator": {
+        "enabled": false
+      },
+      "doc-coauthoring": {
+        "enabled": false
+      },
+      "mcp-builder": {
+        "enabled": false
+      },
+      "slack-gif-creator": {
+        "enabled": false
+      },
+      "theme-factory": {
+        "enabled": false
+      },
+      "web-artifacts-builder": {
+        "enabled": false
+      },
+      "webapp-testing": {
+        "enabled": false
+      },
+      "qclaw-skill-creator": {
+        "enabled": true
+      },
+      "online-search": {
+        "enabled": true
+      },
+      "创业可以学": {
+        "enabled": false
+      },
+      "wendao-partner-qclaw-skill": {
+        "enabled": true
+      },
+      "bdpan-storage": {
+        "enabled": false
+      },
+      "flyai": {
+        "enabled": true
+      },
+      "tencent-news": {
+        "enabled": false
+      },
+      "tme-openapi": {
+        "enabled": false
+      },
+      "ai-promotion-query": {
+        "enabled": false
+      },
+      "ai-data-analysis": {
+        "enabled": false
+      },
+      "aippt": {
+        "enabled": false
+      },
+      "tencent-musician-skills": {
+        "enabled": false
+      },
+      "huashu-nuwa": {
+        "enabled": true
+      },
+      "travel-planner": {
+        "enabled": true
+      },
+      "lark-setup": {
+        "enabled": false
+      },
+      "tencent-docs": {
+        "enabled": true
+      },
+      "football-match-analysis": {
+        "enabled": true
+      },
+      "worldcup-api": {
+        "enabled": true
+      }
+    },
+    "limits": {
+      "maxSkillsPromptChars": 20000
+    }
+  },
+  "plugins": {
+    "enabled": true,
+    "allow": [
+      "wechat-access",
+      "qclaw-plugin",
+      "feishu",
+      "openclaw-weixin",
+      "lossless-claw",
+      "openclaw-qqbot",
+      "browser",
+      "memory-core",
+      "qclaw-embedding",
+      "ollama",
+      "qclaw-llm-provider",
+      "document-extract"
+    ],
+    "load": {
+      "paths": [
+        "C:\\Program Files\\QClaw\\v0.2.35.624\\resources\\openclaw\\config\\extensions"
+      ]
+    },
+    "slots": {
+      "contextEngine": "lossless-claw"
+    },
+    "entries": {
+      "wechat-access": {
+        "enabled": true
+      },
+      "qclaw-plugin": {
+        "enabled": true,
+        "config": {},
+        "hooks": {
+          "allowConversationAccess": true
+        }
+      },
+      "feishu": {
+        "enabled": true,
+        "config": {}
+      },
+      "openclaw-weixin": {
+        "enabled": true,
+        "config": {}
+      },
+      "lossless-claw": {
+        "enabled": true,
+        "config": {
+          "dbPath": "C:\\Users\\Administrator\\.qclaw\\memory\\lossless\\lcm.db",
+          "contextThreshold": 0.6,
+          "freshTailCount": 64,
+          "incrementalMaxDepth": 5,
+          "freshTailMaxTokens": 40000,
+          "ignoreSessionPatterns": [
+            "agent:*:cron:**",
+            "**:heartbeat"
+          ],
+          "statelessSessionPatterns": [
+            "agent:*:subagent:**"
+          ],
+          "skipStatelessSessions": true
+        },
+        "hooks": {
+          "allowConversationAccess": true
+        }
+      },
+      "openclaw-qqbot": {
+        "enabled": true,
+        "config": {}
+      },
+      "browser": {
+        "enabled": true
+      },
+      "ollama": {
+        "enabled": true
+      },
+      "qclaw-llm-provider": {
+        "enabled": true,
+        "config": {}
+      }
+    }
+  },
+  "bindings": [
+    {
+      "agentId": "main",
+      "match": {
+        "channel": "feishu",
+        "accountId": "cli_a9401a307b38dcb5"
+      }
+    },
+    {
+      "agentId": "main",
+      "match": {
+        "channel": "qqbot",
+        "accountId": "1903822166"
+      }
+    }
+  ],
+  "diagnostics": {
+    "stuckSessionAbortMs": 1800000
+  }
+}

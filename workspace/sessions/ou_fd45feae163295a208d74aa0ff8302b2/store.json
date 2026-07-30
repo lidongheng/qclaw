@@ -1,0 +1,25 @@
+{
+  "id": "ou_fd45feae163295a208d74aa0ff8302b2",
+  "name": "会话摘要",
+  "status": "active",
+  "createdAt": "2026-04-27T04:09:56.949Z",
+  "updatedAt": "2026-04-27T04:09:56.950Z",
+  "agents": [
+    {
+      "id": "agent_628w7s8s",
+      "name": "Main Agent",
+      "role": "assistant",
+      "status": "idle",
+      "createdAt": "2026-04-27T04:09:56.949Z",
+      "model": "unknown",
+      "systemPrompt": ""
+    }
+  ],
+  "summary": {
+    "id": "summary_bos9j25z",
+    "title": "会话摘要",
+    "createdAt": "2026-04-27T04:09:56.950Z",
+    "file": "summary_bos9j25z.md"
+  },
+  "lastMessageCount": 196
+}

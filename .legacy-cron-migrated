@@ -1,0 +1,7 @@
+{
+  "ts": 1782191855155,
+  "changes": [
+    "Cron store migrated to SQLite at ~\\.qclaw\\cron\\jobs.json. Imported 3 legacy cron run logs into SQLite."
+  ],
+  "warnings": []
+}

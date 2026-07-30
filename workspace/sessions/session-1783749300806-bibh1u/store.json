@@ -1,0 +1,25 @@
+{
+  "id": "session-1783749300806-bibh1u",
+  "name": "挪威vs英格兰",
+  "status": "active",
+  "createdAt": "2026-07-11T05:56:40.946Z",
+  "updatedAt": "2026-07-11T06:05:21.381Z",
+  "agents": [
+    {
+      "id": "agent_der0kdo7",
+      "name": "4hrk450kuzewc1be",
+      "role": "assistant",
+      "status": "idle",
+      "createdAt": "2026-07-11T05:56:40.946Z",
+      "model": "unknown",
+      "systemPrompt": ""
+    }
+  ],
+  "summary": {
+    "id": "summary_g7vcv40e",
+    "title": "挪威vs英格兰",
+    "createdAt": "2026-07-11T05:56:40.946Z",
+    "file": "summary_g7vcv40e.md"
+  },
+  "lastMessageCount": 32
+}

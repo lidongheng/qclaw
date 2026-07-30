@@ -1,0 +1,25 @@
+{
+  "id": "session-1783004850812-kp6k18",
+  "name": "世界杯赛前速报",
+  "status": "active",
+  "createdAt": "2026-07-02T15:09:13.409Z",
+  "updatedAt": "2026-07-03T05:45:31.863Z",
+  "agents": [
+    {
+      "id": "agent_97r9i3o1",
+      "name": "4hrk450kuzewc1be",
+      "role": "assistant",
+      "status": "idle",
+      "createdAt": "2026-07-02T15:09:13.409Z",
+      "model": "unknown",
+      "systemPrompt": ""
+    }
+  ],
+  "summary": {
+    "id": "summary_pikpq3qs",
+    "title": "世界杯赛前速报",
+    "createdAt": "2026-07-02T15:09:13.409Z",
+    "file": "summary_pikpq3qs.md"
+  },
+  "lastMessageCount": 68
+}
